@@ -31,6 +31,8 @@ describe("test calculateSalary", () => {
 
   it("test calculateSalary 01", () => {
     const result = calculateSalary(employees);
+    console.log("result for question 4:");
+    console.log(result);
     expect({ higherSalary: 2000, lowerSalary: 1000, average: 1500 }).toEqual(
       result
     );

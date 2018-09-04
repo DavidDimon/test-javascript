@@ -8,6 +8,8 @@ describe("test sortNumbers", () => {
 
   it("test sortNumbers params", () => {
     const result = sortNumbers([1, 2, 4, 3]);
+    console.log("result for question 2:");
+    console.log(result);
     expect([4, 3, 2, 1]).toEqual(result);
   });
 

@@ -14,6 +14,8 @@ describe("test calculateSales", () => {
 
   it("test calculateSales 01", () => {
     const result = calculateSales(sales);
+    console.log("result for question 7:");
+    console.log(result);
     expect({
       companyBillingDay: 76,
       companyBillingWeek: 380,

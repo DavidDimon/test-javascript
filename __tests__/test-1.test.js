@@ -8,6 +8,8 @@ describe("test getmonth", () => {
 
   it("test month index 2", () => {
     const result = getMonth(2);
+    console.log("result for question 1:");
+    console.log(result);
     expect("February").toBe(result);
   });
 

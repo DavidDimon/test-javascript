@@ -47,6 +47,8 @@ describe("test extractDataFromPeoples", () => {
 
   it("test extractDataFromPeoples 01", () => {
     const result = extractDataFromPeoples(peoples);
+    console.log("result for question 5:");
+    console.log(result);
     expect({
       averageAge: 36,
       countWomen: 4,

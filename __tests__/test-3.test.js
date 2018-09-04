@@ -19,6 +19,8 @@ describe("test calculateNumbers", () => {
   it("test calculateNumbers with 500 numbers", () => {
     const numbers = Array.from(Array(500).keys());
     const result = calculateNumbers(numbers);
+    console.log("result for question 3:");
+    console.log(result);
     expect({ max: 499, min: 0, average: 249.5 }).toEqual(result);
   });
 });

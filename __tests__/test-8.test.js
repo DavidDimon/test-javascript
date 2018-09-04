@@ -16,6 +16,8 @@ describe("test calculateMatrix", () => {
 
   it("test calculateMatrix 01", () => {
     const result = calculateMatrix(matrix);
+    console.log("results for question 8:");
+    console.log(result);
     expect({
       mainDiagonal: 170,
       secondaryDiagonal: 170,
