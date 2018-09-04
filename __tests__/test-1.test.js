@@ -3,7 +3,7 @@ import getMonth from "../src/test-1";
 describe("test getmonth", () => {
   it("test month invalid month", () => {
     const result = getMonth(0);
-    expect("invalid index :(").toBe(result);
+    expect("invalid param").toBe(result);
   });
 
   it("test month index 2", () => {

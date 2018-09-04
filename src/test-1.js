@@ -7,7 +7,7 @@ const getMonth = indexMonth => {
       .month(indexMonth - 1)
       .format("MMMM");
   }
-  return "invalid index :(";
+  return "invalid param";
 };
 
 export default getMonth;
